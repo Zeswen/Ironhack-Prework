@@ -1,0 +1,201 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/Yasuo-bg.jpg");
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./images/Yasuo-gif.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem auto;
+    width: 90vw;
+    height: 80vh;
+    border: 2px #2E2734 solid;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-shadow: 2px 2px black;
+    padding: 2rem;
+}
+
+.name h4 {
+    margin: 0.25rem 0.5rem;
+    color: lightgray;
+    font-style: italic;
+}
+
+.rates {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding: 0.5rem 0.5rem;
+    color: lightgray;
+    text-shadow: 2px 2px black;
+    font-weight: 500;
+    align-self: flex-end;
+    font-size: 1.25rem;
+}
+
+.rates div {
+    padding: 0 1rem;
+}
+
+.lane {
+    display: flex;
+}
+
+.stats {
+    width: 20vw;
+    border: 2px #2E2734 solid;
+    background-color: #0F0713;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.25rem;
+    align-content: center;
+}
+
+.key {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stat {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lore {
+    margin: 0rem 5.25rem 0rem 2.5rem;
+    border: 2px #2E2734 solid;
+    background-color: #0F0713;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.lore-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.lore-content p {
+    color: gray;
+    margin-top: 1rem;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.abilities h2 {
+    margin: 2.5rem 5.25rem;
+}
+
+.abilities h5 {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+
+.ability {
+    margin: 1rem 5.25rem;
+    padding: 1rem;
+    border: 2px #2E2734 solid;
+    background-color: #0F0713;
+}
+
+.cds {
+    padding: 0.75rem 0;
+}
+
+.skins {
+    margin: 3rem 5.25rem;
+}
+
+.lul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yas-0 {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: url("./images/Yasuo-0.jpg");
+    height: 35rem;
+    width: 19.25rem;
+}
+
+.yas-1 {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: url("./images/Yasuo-1.jpg");
+    width: 19.25rem;
+    height: 35rem;
+}
+
+.yas-2 {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: url("./images/Yasuo-2.jpg");
+    width: 19.25rem;
+    height: 35rem;
+}
+
+.yas-3 {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: url("./images/Yasuo-3.jpg");
+    width: 19.25rem;
+    height: 35rem;
+}
+
+.yas-4 {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: url("./images/Yasuo-4.jpg");
+    width: 19.25rem;
+    height: 35rem;
+}
+
+.tip {}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 60vh;
+        background-position: right top;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .name {
+        padding: 2rem 1rem;
+    }
+    .stats {
+        display: none;
+    }
+    .skins {
+        display: none;
+    }
+}

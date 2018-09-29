@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/Mars.png");
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px #459fed;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+    background-size: cover;
+}
+
+button {
+    font-family: HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh, HelveticaNeueW10-45Ligh, Helvetica, Arial, sans-serif;
+    color: rgba(32, 48, 60, 0.8);
+    font-weight: lighter;
+    border: 1px white solid;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+    border-radius: 1.75rem;
+    height: 3rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+button:hover {
+    transition: linear 0.25s;
+    color: #459fed;
+    border-color: #459fed;
+    text-shadow: white 2px 2px;
+    cursor: pointer;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1-rover {
+    margin-left: 1rem;
+}
+
+#reminder {
+    margin-top: 3rem;
+}
+
+.p2-rover {
+    margin-right: 1rem;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.grid td {
+    border: 1px black solid;
+    height: 3.5rem;
+    width: 3.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0.25px 0.25px rgba(128, 128, 128, 0.25);
+    font-size: 11px;
+    margin: 0;
+    background-color: white;
+}

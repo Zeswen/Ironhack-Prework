@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yasuo, the Unforgiven</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <div class="name">
+                <h1>Yasuo, the Unforgiven</h1>
+                <h4>"Death is like the wind, always by my side."</h4>
+            </div>
+            <div class="rates">
+                <div class="pick">
+                    <h5>16.5%</h5>
+                    <p>Pick rate</p>
+                </div>
+                <div class="ban">
+                    <h5>52.1%</h5>
+                    <p>Ban rate</p>
+                </div>
+                <div class="win">
+                    <h5>50.9%</h5>
+                    <p>Win rate</p>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="lane">
+        <section>
+            <div class="stats">
+                <div class="lol">
+                    <p class="key">Health</p>
+                    <p class="stat">523 (+87 Growth)</p>
+                </div>
+                <div class="lol">
+                    <p class="key">Health Regeneration</p><span class="stat">6.5 (+0.9 Growth)</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Attack Damage</p><span class="stat">63 (+3.2 Growth)</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Attack Speed</p><span class="stat">0.670 (+2.5% Growth)</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Armor</p><span class="stat">30 (+3.4 Growth)</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Magic Resists</p><span class="stat">30 (+1.25 Growth)</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Attack Range</p><span class="stat">175</span>
+                </div>
+                <div class="lol">
+                    <p class="key">Movement Speed</p><span class="stat">345</span>
+                </div>
+            </div>
+        </section>
+        <section class="lore">
+            <div class="lore-content">
+                <h2>Lore</h2>
+                <p> An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master—unable to prove his innocence, he was forced to slay his own brother
+                    in self defense. Even after his master's true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade.</p>
+            </div>
+    </div>
+    </section>
+
+    <section class="abilities">
+        <h2>Abilities</h2>
+        <article class="ability">
+            <div class="passive">
+                <img src="./images/Yasuo-Passive.png" alt="Yasuo-Passive">
+            </div>
+            <div>
+                <h5>Way of the Wanderer (Passive)</h5>
+                <p>Yasuo's Critical Strike Chance is doubled. Additionally, Yasuo builds toward a shield whenever he is moving. The shield triggers when he takes damage from a champion or monster.</p>
+            </div>
+        </article>
+        <article class="ability">
+            <div class="q">
+                <img src="./images/Yasuo-Q.png" alt="Yasuo-Q">
+            </div>
+            <div>
+                <h5>Steel Tempest (Q)</h5>
+            </div>
+            <div class="cds">
+                <p class="">Cooldown: 6/5.5/5/4.5/4</p>
+                <p class="">Cost: No Cost</p>
+                <p class="">Range: 475</p>
+            </div>
+            <div>
+                <p>Thrusts forward, dealing {{ f 2.0 }} (+{{ f 3.0 }}) physical damage.On hit, Steel Tempest grants a stack of Gathering Storm for 6 seconds. At 2 stacks, Steel Tempest fires a whirlwind that knocks Airborne. Steel Tempest is treated as a
+                    basic attack: It can critically strike, applies on-hit effects, is interruptible by crowd control and its cooldown and cast time are reduced by Attack Speed. If cast while dashing, Steel Tempest will strike as a circle.</p>
+            </div>
+        </article>
+        <article class="ability">
+            <div class="">
+                <img src="./images/Yasuo-W.png" alt="Yasuo-W">
+            </div>
+            <div>
+                <h5>Wind Wall (W)</h5>
+            </div>
+            <div class="cds">
+                <p class=" ">Cooldown: 26/24/22/20/18</p>
+                <p class="">Cost: No Cost</p>
+                <p class="">Range: 400</p>
+            </div>
+            <p>Creates a moving wall that blocks all enemy projectiles for 4 seconds.</p>
+        </article>
+        <article class="ability">
+            <div class="">
+                <img src="./images/Yasuo-E.png" alt="Yasuo-E">
+            </div>
+            <div>
+                <h5>Sweeping Blade (E)</h5>
+            </div>
+            <div class="cds">
+                <p class=" ">Cooldown: 0</p>
+                <p class="">Cost: No Cost</p>
+                <p class="">Range: 475</p>
+            </div>
+            <div>
+                <p>Dashes through target enemy, dealing 60/70/80/90/100 (+0.6) (+f 3) Magic Damage. Each cast increases your next dash's base Damage by 25%, up to 50%.Cannot be re-cast on the same enemy for 10/9/8/7/6 seconds.If cast while dashing, Steel
+                    Tempest will strike as a circle.</p>
+            </div>
+        </article>
+        <article class="./images/Yasuo-R.png">
+            <div class="ability">
+                <div>
+                    <img src="./images/Yasuo-R.png" alt="Yasuo-R">
+                </div>
+                <div>
+                    <h5>Last Breath (R)</h5>
+                </div>
+                <div class="cds">
+                    <p class="">Cooldown: 0</p>
+                    <p class="">Cost: No Cost</p>
+                    <p class="">Range: 1400</p>
+                </div>
+                <div>
+                    <p>Blinks to an Airborne enemy champion, dealing 200/300/400 (+1.5) physical damage and holding all Airborne enemies in the area in the air for an additional 1 second. Grants maximum Flow but resets all stacks of Gathering Storm. For
+                        15 seconds, Yasuo's critical strikes gain 50% Bonus Armor Penetration - this affects Armor from items, buffs, and runes.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="skins">
+        <h2>Skins</h2>
+        <div class="lul">
+            <a class="yas-0" href="Yasuo-0">
+                <div>
+                    <p class="">Yasuo</p>
+                    <p class=""><img class="tip" src="./images/RP.png" title="" alt="RP" data-original-title="Riot Points"> 975 <img class="tip" src="./images/ip.png" title="" alt="IP" data-original-title="Influence Points"> 6,300 </p>
+                </div>
+
+            </a>
+            <a class="yas-1" href="Yasuo-1">
+                <div>
+                    <p class="">High Noon Yasuo</p>
+                    <p class=""><img class="tip" src="./images/RP.png" title="" alt="RP" data-original-title="Riot Points"> 975 </p>
+                </div>
+            </a>
+            <a class="yas-2" href="Yasuo-2">
+                <div>
+                    <p class="">PROJECT: Yasuo</p>
+                    <p class=""><img class="tip" src="./images/RP.png" title="" alt="RP" data-original-title="Riot Points"> 1,350 </p>
+                </div>
+            </a>
+            <a class="yas-3" href="Yasuo-3">
+                <div>
+                    <p class="">Blood Moon Yasuo</p>
+                    <p class=""><img class="tip" src="./images/RP.png" title="" alt="RP" data-original-title="Riot Points"> 975 </p>
+                </div>
+            </a>
+            <a class="yas-4" href="Yasuo-4">
+                <div>
+                    <p class="">Nightbringer Yasuo</p>
+                    <p class=""><img class="tip" src="./images/RP.png" title="" alt="RP" data-original-title="Riot Points"> 1,820 </p>
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
